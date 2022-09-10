@@ -15,21 +15,26 @@
 </head>
 
 <body>
-    <!--Шапка профиля-->
-    <header class="page-header">
-        <div class="container header-container">
-        <nav>
+    <!--Шапка сайта-->
+    <header class="header">
+        <div class="container flex-container">
+        <nav class="flex-container">
+            <div class="container ">
             <a href="index.html" class="logo"><span class="logo-accent">Web</span>Studio</a>
+            </div>
+            
             <ul class="site-nav list">
-                <li class="item"> <a href="./index.html" class="link current">Студія</a></li>
-                <li class="item"> <a href="./portfolio.html" class="link">Портфоліо</a></li>
-                <li class="item"> <a href="" class="link">Контакти</a></li>
+                <li class="nav-item"> <a class="nav-link link current" href="./index.html" >Студія</a></li>
+                <li class="nav-item"> <a class="nav-link link" href="./portfolio.html" >Портфоліо</a></li>
+                <li class="nav-item"> <a class="nav-link link" href="" >Контакти</a></li>
             </ul>
         </nav>
+        <div class="nav-contact container">
         <ul class="contacts list">
-            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li class="header-tel"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+            <li><a  class="nav-contacts link" href="mailto:info@devstudio.com" >info@devstudio.com</a></li>
+            <li class="header-tel"><a class="nav-contacts link" href="tel:+380961111111" >+38 096 111 11 11</a></li>
         </ul>
+        </div>
         
 </div>
     </header>
@@ -49,7 +54,8 @@
         <section class="section">
             <div class="container ">
             <h2 hidden>Переваги</h2>
-            <ul>
+            </div>
+            <ul class="benefits-list">
                 <li>
                     <div class="container">
                     <h3 class="title-about">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -87,9 +93,9 @@
             <h2 class="section-title">Чим ми займаємося</h2>
             </div>
             <ul>
-                <li><img src="./images1/img.jpg" alt=" робота з планшетом " width="370"></li>
-                <li><img src="./images1/img2.jpg" alt=" робота з телефоном " width="370"></li>
-                <li><img src="./images1/img3.jpg" alt=" робота з підбором кольорів " width="370"></li>
+                <li><img class="work-img" src="./images1/img.jpg" alt=" робота з планшетом " width="370"></li>
+                <li><img class="work-img" src="./images1/img2.jpg" alt=" робота з телефоном " width="370"></li>
+                <li><img class="work-img" src="./images1/img3.jpg" alt=" робота з підбором кольорів " width="370"></li>
             </ul>
         </section>
         <!--Наша команда-->
@@ -98,10 +104,9 @@
             <div class="container">
             <h2 class="section-title">Наша команда</h2>
             </div>
-            
+            <div class="container">
             <ul class="team-member-list">
-                <li class="item">
-                    <div class="container">
+                <li class="team-item">
                     <img src="./images1/team-member1.jpg" alt=" учасник команди Ігор Дем'яненко" width="270">
                     <h3 class="team-member">Ігор Дем'яненко</h3>
 
@@ -109,25 +114,28 @@
                 </div>
                 </li>
                
-                <li class="item">
-                    <div class="container">
+                <div class="container">
+                <li class="team-item">
+                    
                     <img src="./images1/team-member2.jpg" alt=" учасник команди Ольга Рєпіна" width="270">
                     <h3 class="team-member">Ольга Рєпіна</h3>
 
                     <p class="job-education">Frontend Developer</p>
                </div>
                 </li>
-                <li class="item">
-                    <div class="container">
+                <div class="container">
+                <li class="team-item">
+                    
                     <img src="./images1/team-member3.jpg" alt=" учасник команди Микола Тарасов" width="270">
                     <h3 class="team-member">Микола Тарасов</h3>
 
                     <p class="job-education">Marketing</p>
                 </div>
                 </li>
-
-                <li class="item">
-                    <div class="container">
+    
+                <div class="container">
+                <li class="team-item">
+                    
                     <img src="./images1/team-member4.jpg" alt=" учасник команди Михайло Єрмаков" width="270">
                     <h3 class="team-member">Михайло Єрмаков</h3>
 
