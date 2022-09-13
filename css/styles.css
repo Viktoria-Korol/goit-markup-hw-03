@@ -32,8 +32,39 @@ body {
     color: #000000;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
+
+.section .no-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.section {
+    min-width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+}
+
 h1,
 h2,
 h3,
@@ -60,7 +91,7 @@ button {
  }
 /* Шапка */
 .header {
-    border-bottom: 1px solid var(--contacts-and-paragraph-color);
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header .flex-container {
@@ -70,6 +101,7 @@ button {
 .header-container{
     display: flex;
 }
+
 .logo {
     
     font-family: 'Raleway', sans-serif;
@@ -194,9 +226,6 @@ nav.flex-container {
     padding-left: 50px;
 }
 
-.nav-contact{
-    margin-left: auto;
-}
 .site-nav .item{
     margin-right: 50px;
     
@@ -276,6 +305,10 @@ nav.flex-container {
 .benefits-list{
     display: flex;
 }
+.benefits-item{
+    padding-left: 30px;
+}
+
 .description {
     
     padding-right: 30px;
@@ -301,10 +334,12 @@ nav.flex-container {
 
 
 /* Чим займаэмося */
-
+.section-works{
+    padding-bottom: 94px;
+    
+}
 .section-title {
-
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     color: var(--basic-color);
     font-weight: 700;
     font-size: 36px;
@@ -325,10 +360,19 @@ margin-left: 30px;
 flex-basis: calc(100% / 3 - var(--card-set-gap));}
 
 /* Наша команда */
-
+.section-team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .team-item{
     margin: 30px;
+}
+
+.team-member-list{
+    display: flex;
+    margin-top: 0;
+    margin-bottom : 0;
 }
 .team-member-list>.item {
     display: flex;
@@ -388,6 +432,9 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
 .button-section{
     display: flex;
     align-items: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    margin-left: 246px;
 }
 .portfolio-btn {
    
@@ -406,13 +453,13 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
 .portfolio-item{
 
     padding-left: 8px;
-    text-align: center;
+    align-items: center;
 }
 
 .nav-prtf-button{
     display: flex;
-    align-items: center;
-    margin: 94px 50px;
+    
+    margin-bottom: 50px;
 
 }
 
@@ -427,10 +474,11 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
 }
 
 /* Блок з роботами */
+.section-prtf-works{
+    margin-bottom: 30px;
+}
 .card-set{
     
-    padding: 0;
-    margin: 0;
     list-style: none;
     
 
@@ -445,24 +493,16 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
     margin-left: var(--card-set-gap);
     flex-basis: calc(100% / 3 - var(--card-set-gap));
 }
-
-.card-set{
-    margin-bottom: var(--card-set-gap);
-    
-}
  
- .card{
-    border: 1px solid var(--border-prtf-img);
- }
  .card-content{
     padding: 20px 24px;
-    
+    border: 1px solid var(--border-prtf-img);
 
  }
 
  .paragraph-caption{
     margin-top: 4px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
  }
 
 .header-cards {
@@ -484,6 +524,7 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
 }
 
 /* Футер */
+ 
 
 
 .link-footer {
@@ -554,35 +595,14 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
     color: var(--white-color);
 }
 
-address {
-    font-style: normal;
+
+
+
+.button-section{
+    padding-right: 94px;
+    padding-left: 94px;
 }
-
-a {
-    text-decoration: none;
+.section{
+    padding-right: 94px;
+    padding-left: 94px;
 }
-
-.container {
-    
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-      padding-left: 15px;
-      padding-right: 15px;
-        
-    /*outline: 2px solid tomato;*/
-
-}
-.section .no-padding {
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-.section {
-    padding-top: 92px;
-    padding-bottom: 94px;
-    min-width: 1200px;
-}
-
-
-
