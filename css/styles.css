@@ -474,11 +474,9 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
 }
 
 /* Блок з роботами */
-.section-prtf-works{
-    margin-bottom: 30px;
-}
+
 .card-set{
-    
+    margin-bottom: 30px;
     list-style: none;
     
 
