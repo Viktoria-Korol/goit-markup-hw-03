@@ -524,8 +524,19 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
 }
 
 /* Футер */
- 
+ .footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+ }
 
+.address{
+    margin-top: 20px;
+}
+.contacts-footer .item{
+    min-height: 21px;
+}
+.contacts-footer .item + .item{
+    margin-top: 9px;}
 
 .link-footer {
     font-family: 'Roboto';
