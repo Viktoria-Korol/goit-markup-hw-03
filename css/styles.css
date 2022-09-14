@@ -431,10 +431,11 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
 
 .button-section{
     display: flex;
+    justify-content: center;
     align-items: center;
     padding-top: 94px;
     padding-bottom: 50px;
-    margin-left: 246px;
+    
 }
 .portfolio-btn {
    
