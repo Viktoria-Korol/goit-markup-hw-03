@@ -5,7 +5,7 @@ sans-serif;
 font-family: 'Roboto',
 sans-serif; */
 
-
+/* Основні властивості*/
 .page-header {
     font-weight: 500;
 }
@@ -65,6 +65,7 @@ a {
     
 }
 
+/*Сброс*/
 h1,
 h2,
 h3,
@@ -89,6 +90,8 @@ button {
     max-width: 100%;
     height: auto;
  }
+
+
 /* Шапка */
 .header {
     border-bottom: 1px solid #ECECEC;
@@ -102,6 +105,12 @@ button {
     display: flex;
 }
 
+.header .flex-container {
+    display: flex;
+    align-items: center;
+}
+
+/*Логотип*/
 .logo {
     
     font-family: 'Raleway', sans-serif;
@@ -112,20 +121,23 @@ button {
     color: #000000;
     margin-left: 0px;
     margin-right: 0;
-    letter-spacing: 0.06em;
-        
+    letter-spacing: 0.06em;     
 }
 
 .logo-accent {
     color: var(--accent-color);
 }
 
-
+/*Навигация*/
 .header .flex-container {
     display: flex;
     align-items: center;
 }
 
+.header .flex-container {
+    display: flex;
+    align-items: center;
+}
 .header .site-nav {
     column-gap: 50px;
 }
@@ -133,7 +145,6 @@ button {
 nav.flex-container {
     column-gap: 93px;
 }
-
 
 .nav-item {
     line-height: 0;
@@ -164,29 +175,20 @@ nav.flex-container {
 
 .header .nav-link {
     display: block;
-
     padding-top: 32px;
-    padding-bottom: 31px;
-
+    padding-bottom: 32px;
     color: var(--basic-color);
 }
 
+
 .header .nav-contacts {
     margin-left: auto;
-    column-gap: 50px;
     color: inherit;
     display: flex;
     column-gap: 10px;
     align-items: center;
-    
-    
 } 
 
-.nav-link{
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
 
   /*Контакти*/
   .contacts-header .link {
@@ -217,9 +219,7 @@ nav.flex-container {
       justify-content: flex-end;
     
 }
-.header-mail{
-    padding-left: 50px;
-}
+
 
 .header-tel {
     
@@ -306,14 +306,11 @@ nav.flex-container {
     display: flex;
 }
 .benefits-item{
-    padding-left: 30px;
+    margin-left: 30px; 
 }
 
 .description {
-    
-    padding-right: 30px;
-
-
+   
     color: var(--contacts-and-paragraph-color);
     line-height: 1.7;
 
@@ -339,7 +336,7 @@ nav.flex-container {
     
 }
 .section-title {
-    padding-bottom: 70px; 
+    margin-bottom: 50px; 
     color: var(--basic-color);
     font-weight: 700;
     font-size: 36px;
@@ -355,7 +352,6 @@ nav.flex-container {
 }
 .work-list > .work-item{
 display: flex;
-margin-top: calc(-1 * var(--card-set-gap));
 margin-left: 30px;
 flex-basis: calc(100% / 3 - var(--card-set-gap));}
 
@@ -366,7 +362,8 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
 }
 
 .team-item{
-    margin: 30px;
+    display: flex;
+    margin-left: 30px;
 }
 
 .team-member-list{
@@ -388,16 +385,18 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
     
 }
 .team-member {
+    margin-bottom: 10px;
     color: var(--basic-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    padding-bottom: 10px;
+    
+
 
 }
 .job-education {
-    margin-top: 10px;
+    
     color: var(--contacts-and-paragraph-color);
     font-size: 16px;
     line-height: 1.18;
@@ -429,13 +428,14 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
 /* Шапка профиля */
 /* Список кнопок */
 
-.button-section{
+.section-portfolio{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px; 
     
+        
 }
 .portfolio-btn {
    
@@ -458,10 +458,8 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
 }
 
 .nav-prtf-button{
-    display: flex;
-    
-    margin-bottom: 50px;
 
+    display: flex;
 }
 
 .portfolio-btn:hover,
@@ -497,10 +495,6 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
 
  }
 
- .paragraph-caption{
-    margin-top: 4px;
-    margin-bottom: 30px;
- }
 
 .header-cards {
     color: var(--basic-color);
@@ -510,6 +504,7 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
 }
 
 .paragraph-caption {
+    margin-top: 4px;
     color: var(--contacts-and-paragraph-color);
     font-size: 16px;
     line-height: 1.8;
@@ -606,10 +601,7 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
 
 
 
-.button-section{
-    padding-right: 94px;
-    padding-left: 94px;
-}
+
 .section{
     padding-right: 94px;
     padding-left: 94px;
