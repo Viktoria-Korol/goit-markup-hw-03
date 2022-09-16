@@ -100,7 +100,7 @@ button {
 .header .flex-container {
     display: flex;
     align-items: center;
-} 
+}
 .header-container{
     display: flex;
 }
@@ -321,7 +321,7 @@ nav.flex-container {
     margin-bottom: 10px;
 }
 .title-about {
-    padding-bottom: 10px;
+    margin-bottom: 10px; 
     
     color: var(--basic-color);
     font-weight: 700;
@@ -440,11 +440,11 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
 .nav-prtf-button{
     display: flex;
     justify-content: center;
+    margin-bottom: 34px;
 
 }
 .portfolio-btn {
     
-    margin-bottom: 34px;
     padding: 6px 22px;
     border: 4px solid transparent ;
     border-radius: 4px;
@@ -490,14 +490,16 @@ flex-basis: calc(100% / 3 - var(--card-set-gap));}
     
 
 }
-.card-set > .card-item {
+
+.card-set>.card-item {
     display: flex;
-    
+
 }
  
  .card-content{
     padding: 20px 24px;
     border: 1px solid var(--border-prtf-img);
+    border-top: none;
 
  }
 
